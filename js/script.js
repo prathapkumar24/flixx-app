@@ -19,15 +19,19 @@ function init() {
       displayPopularMovies();
       break;
     case "/shows.html":
+    case "/shows":
       displayPopularShows();
       break;
     case "/movie-details.html":
+    case "/movie-details":
       console.log("Moviw Details");
       break;
     case "/tv-details.html":
+    case "/tv-details":
       console.log("Tv Details");
       break;
     case "/search.html":
+    case "/search":
       console.log("Search");
       break;
   }
