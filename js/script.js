@@ -162,17 +162,17 @@ async function displayShowDetails() {
                     ? `<img
                     src="https://image.tmdb.org/t/p/w500${show.poster_path}"
                     class="card-img-top"
-                    alt="${show.title}"
+                    alt="${show.name}"
                     />`
                     : `<img
                     src="images/no-image.jpg"
                     class="card-img-top"
-                    alt="${show.title}"
+                    alt="${show.name}"
                   />`
                 }
                 </div>
                 <div>
-                  <h2>${show.title}</h2>
+                  <h2>${show.name}</h2>
                   <p>
                     <i class="fas fa-star text-primary"></i>
                     ${show.vote_average.toFixed(1)} / 10
